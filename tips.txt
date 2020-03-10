@@ -1,0 +1,2 @@
+1.查看docker-hub中jenkins的版本号：curl -s https://registry.hub.docker.com/v1/repositories/jenkins/tags
+2.启动2375端口：修改docker.service 中/usr/bin/dockerd-current -H tcp://0.0.0.0:2375 -H unix://var/run/docker.sock
